@@ -40,14 +40,15 @@
         </article>
         <article class="formulier">
             <form action="https://formsubmit.co/tijmenloix@icloud.com" method="POST">
-                <div class="naam"><p>Naam:</p></div>
-                <input class="input" type="text" class="inaam" placeholder="Naam">
-                <div class="naam"><p>E-mail:</p></div>
-                <input class="input" type="email" class="iemail" placeholder="E-mail">
-                <div class="naam"><p>Datum:</p></div>
-                <input class="input" type="date" class="idate" placeholder="Datum">
-                <div class="naam"><p>Bericht:</p></div>
-                <input class="input" type="text" class="ibericht" placeholder="Bericht">
+                <input type="hidden" name="_captcha" value="false">
+                <label>Naam: </label>
+                <input class="input" type="text" name="naam" class="inaam" placeholder="Naam">
+                <label>E-mail: </label>
+                <input class="input" type="email" name="email" class="iemail" placeholder="E-mail">
+                <label>Datum: </label>
+                <input class="input" type="date" name="datum" class="idate" placeholder="Datum">
+                <label>Bericht: </label>
+                <input class="input" type="text" name="bericht" class="ibericht" placeholder="Bericht">
                 <button type="submit" class="button">Verstuur</button>
             </form>
         </article>
