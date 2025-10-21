@@ -1,0 +1,38 @@
+
+td,
+table {
+    border: 1px solid black;
+    height: 30px;
+    text-align: center;
+}
+
+table {
+    width: 700px;
+    table-layout: fixed;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    color: white;
+}
+
+thead,
+tfoot {
+    background-color: #27426d;
+}
+
+tbody {
+    background-color: #4f8cef
+}
+
+
+tfoot td {
+    border: none;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #6facff;
+}
+
+tbody [scope="row"] {background-color: blue}
